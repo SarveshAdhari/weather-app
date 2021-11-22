@@ -46,12 +46,12 @@ Colors for app: #1B1B1E => Rasin Black
 
 .big-screen h2{
   color: azure;
-  font-size: 70px;
+  font-size: 60px;
   text-shadow: 1px 3px rgba(0,0,0,0.5);
 }
 
 .big-screen small{
-  font-size: 50px;
+  font-size: 40px;
   color: azure;
   text-shadow: 1px 3px rgba(0,0,0,0.5);
   
@@ -92,13 +92,13 @@ Colors for app: #1B1B1E => Rasin Black
 
 .temp h4{
   color: azure;
-  font-size: 30px;
+  font-size: 20px;
   text-shadow: 1px 3px rgba(0,0,0,0.5);
   
 }
 
 .inner-temp{
-  font-size: 70px;
+  font-size: 60px;
   color: azure;
   text-shadow: 1px 3px rgba(0,0,0,0.5);
   padding: 2vh 0;
@@ -120,7 +120,7 @@ Colors for app: #1B1B1E => Rasin Black
 .min-max h5{
   display: inline-block;
   color: azure;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* Bottom Content Css */
