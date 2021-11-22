@@ -9,8 +9,7 @@ const Home = () => {
     const [min, setMin] = useState(null);
     const [icon, setIcon] = useState(null);
     const [cond, setCond] = useState(null);
-    const [loading, setLoading] = useState(false);
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=4681881a970549e4bae51138212011&q=${ loc }&days=5&aqi=no&alerts=no`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=4681881a970549e4bae51138212011&q=${ loc }&days=5&aqi=no&alerts=no`;
 
     const sub = () => {
         fetch(url)
@@ -23,7 +22,6 @@ const Home = () => {
             setIcon(response.current.condition.icon);
             setMax(response.forecast.forecastday[0].day.maxtemp_c);
             setMin(response.forecast.forecastday[0].day.mintemp_c);
-            setLoading(true);
         });
     };
 
