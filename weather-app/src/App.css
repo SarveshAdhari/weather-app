@@ -1,0 +1,154 @@
+/* 
+Colors for app: #1B1B1E => Rasin Black
+                #373F51 => Charcoal
+                #58A4B0 => Cadet Blue
+                #A9BCD0 => Light Steel Blue
+                #D8DBE2 => Gainsboro
+*/
+
+.content{
+  font-family: Monaco, monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar Css */
+
+.navbar{
+  background-color: #1B1B1E;
+}
+
+.navbar-br{
+  background-color: #5cb85c;
+  color:#1B1B1E;
+  text-decoration: none; 
+  padding: 0.3vh;
+  border-radius: 0 2vh;
+  font-weight:600;
+  font-size: large;
+  margin-right: 10px;
+}
+
+.navbar-br:hover{
+  color:#1B1B1E;
+  text-decoration: none; 
+}
+
+/* Main Content */
+
+/* Bigger Display */
+.big-screen{
+  padding: 5vh;
+  background-color: #A9BCD0;
+}
+
+.big-screen h2{
+  color: azure;
+  font-size: 70px;
+  text-shadow: 1px 3px rgba(0,0,0,0.5);
+}
+
+.big-screen small{
+  font-size: 50px;
+  color: azure;
+  text-shadow: 1px 3px rgba(0,0,0,0.5);
+  
+}
+
+.search{
+  margin: auto;
+}
+
+.d-flex{
+  margin: auto;
+}
+
+.d-flex input{
+  margin: auto;
+}
+
+.d-flex .btn{
+  color: white;
+  border: 1px solid white;
+}
+
+.d-flex .btn:hover{
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.temp{
+  position: relative;
+  margin: auto;
+  
+}
+
+.temp img{
+  height: 100px;
+}
+
+.temp h4{
+  color: azure;
+  font-size: 30px;
+  text-shadow: 1px 3px rgba(0,0,0,0.5);
+  
+}
+
+.inner-temp{
+  font-size: 70px;
+  color: azure;
+  text-shadow: 1px 3px rgba(0,0,0,0.5);
+  padding: 2vh 0;
+  margin: auto;
+
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 6.5px );
+  -webkit-backdrop-filter: blur( 6.5px );
+  border-radius: 1vh;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.min-max{
+  color: white;
+  text-shadow: 1px 3px rgba(0,0,0,0.5);
+}
+
+.min-max h5{
+  display: inline-block;
+  color: azure;
+  font-size: 30px;
+}
+
+/* Bottom Content Css */
+
+.avail-hours{
+  background-color:#58A4B0;
+  padding: 4vh 2vh;
+}
+
+/* Footer Css */
+
+.page-footer{
+  background-color: #373F51;
+  color: white;
+}
+
+.page-footer a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page-footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.page-footer a:visited{
+  color: white;
+  text-decoration: none;
+}
