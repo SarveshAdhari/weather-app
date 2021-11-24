@@ -64,6 +64,7 @@ Colors for app: #1B1B1E => Rasin Black
 
 .d-flex{
   margin: auto;
+  margin-bottom: 1vh;
 }
 
 .d-flex input{
@@ -129,6 +130,28 @@ Colors for app: #1B1B1E => Rasin Black
 .avail-hours{
   background-color:#58A4B0;
   padding: 4vh 2vh;
+}
+
+.hour h4{
+  text-decoration: underline 2px solid white;
+  margin-bottom: 1vh;
+}
+
+.hour p{
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+
+.hour a{
+  color: white;
+  text-align: left;
+}
+
+.hour a:hover{
+  color: white;
+  text-align: left;
+  text-decoration: none;
 }
 
 /* Footer Css */

@@ -11,7 +11,8 @@ const Home = () => {
     const [cond, setCond] = useState(null);
     const url = `https://api.weatherapi.com/v1/forecast.json?key=4681881a970549e4bae51138212011&q=${ loc }&days=5&aqi=no&alerts=no`;
 
-    const sub = () => {
+    const sub = (e) => {
+        e.preventDefault();
         fetch(url)
         .then(res => res.json())
         .then(response =>{
@@ -33,7 +34,7 @@ const Home = () => {
                 <form className="d-flex col-md-4">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" 
                         onChange={(e) => setLoc(e.target.value) }/>
-                <button className="btn" type="button" onClick={sub}>Search</button>
+                <button className="btn" type="submit" onClick={sub}>Search</button>
                 </form>
                 </div>
                     <h2>
@@ -64,7 +65,28 @@ const Home = () => {
                 <div className="hours">
                     <div className="row">
                         <div className="hour col">
-                            Continuous data here
+                            <p>
+                                <h4>
+                                    Some details to the project:
+                                </h4>
+                                The webapp has been designed using React 17.0.2
+                                <br />
+                                HTML5 and CSS3 have been used along with Bootstrap for frontend.
+                                <br />
+                                The data is being fetched from the api given below.
+                                <br />
+                                The app is hosted on heroku.
+                                <br />
+                                The code is made available on my GitHub page whose link is also provided.
+                                
+                            </p>
+                            <p>
+                                API used: <a href="https://weatherapi.com">www.weatherapi.com </a>
+                            </p>
+                            <p>
+                                Link to my GitHub profile: <a href="https://github.com/SarveshAdhari">https://github.com/SarveshAdhari</a>
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
