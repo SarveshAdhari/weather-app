@@ -69,7 +69,7 @@ const Home = () => {
                                 <h4>
                                     Some details to the project:
                                 </h4>
-                                The webapp has been designed using React 17.0.2
+                                The webapp has been designed using React '17.0.2'
                                 <br />
                                 HTML5 and CSS3 have been used along with Bootstrap for frontend.
                                 <br />
@@ -80,11 +80,11 @@ const Home = () => {
                                 The code is made available on my GitHub page whose link is also provided.
                                 
                             </p>
-                            <p>
+                            <p className="link">
                                 API used: <a href="https://weatherapi.com">www.weatherapi.com </a>
                             </p>
-                            <p>
-                                Link to my GitHub profile: <a href="https://github.com/SarveshAdhari">https://github.com/SarveshAdhari</a>
+                            <p className="link">
+                                Link to my GitHub profile: <a href="https://github.com/SarveshAdhari">My Github Profile</a>
                             </p>
                             
                         </div>

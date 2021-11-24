@@ -133,8 +133,8 @@ Colors for app: #1B1B1E => Rasin Black
 }
 
 .hour h4{
-  text-decoration: underline 2px solid white;
   margin-bottom: 1vh;
+  text-shadow: 1px 3px rgba(0,0,0,0.5);
 }
 
 .hour p{
@@ -146,13 +146,17 @@ Colors for app: #1B1B1E => Rasin Black
 .hour a{
   color: white;
   text-align: left;
+  opacity: 85%;
 }
 
 .hour a:hover{
   color: white;
   text-align: left;
   text-decoration: none;
+  opacity: 100%;
 }
+
+
 
 /* Footer Css */
 
